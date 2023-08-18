@@ -5,11 +5,16 @@ export const Section = styled.section`
   display: flex;
   max-width: 1000px;
   margin-left: 4rem;
- 
-  img {
-    height: calc(100vh - 7rem);
 
+  img {
+    display: flex;
+    height: calc(100vh - 7rem);
   }
 `
 
-
+export const Main =  styled.main`
+ min-height: calc(100vh - 7rem);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ `

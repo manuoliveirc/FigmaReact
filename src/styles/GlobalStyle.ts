@@ -21,4 +21,12 @@ export const GlobalStyle = createGlobalStyle`
   body{
     background-color: ${colors.third};
   }
+  h1, h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+    color: ${colors.secondary};
+}
+
 `
