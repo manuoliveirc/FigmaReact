@@ -4,14 +4,10 @@ export interface ICard {
   titulo: string
   mensagem: string
 }
-export const Card = ({ data, titulo, mensagem }: ICard) => {
+export const Card = ({  }: ICard) => {
   return (
     <S.Aside>
-      <h3>
-        <strong>Data: </strong> {data}
-      </h3>
-      <h4>Título: {titulo}</h4>
-      <p>Mensagem: {mensagem}</p>
+      <p>  Visitei a cafeteria Pão de açúcar-Unidade II e o café e quitandas são muito gostosos, o lugar é muito bonito e confortável, porém o atendimento deixou a desejar.</p>
     </S.Aside>
   );
 };

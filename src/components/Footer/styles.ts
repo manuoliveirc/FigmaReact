@@ -4,10 +4,10 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Footer = styled.footer`
   /* Rodapé */
-  background-color: ${colors.third};
+  background-color: ${colors.primary};
   height: 3rem;
   img {
-    height: 100%;
-    padding: 0.4rem;
+    height: 90%;
+    padding: 0.3rem;
   }
 `

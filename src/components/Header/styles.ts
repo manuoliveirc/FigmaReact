@@ -3,15 +3,14 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.third};
+  background-color: ${colors.primary};
   display: flex;
-  height: 6rem;
+  height: 4rem;
   picture {
-    margin-left: 0.5rem;
-    padding: 0.5rem;
-    img {
-      height: 100%;
-    }
+    margin-left: 1rem;
+  }
+  img{
+    justify-content: center;
   }
 `
 
@@ -33,11 +32,11 @@ export const NavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: var(--black);
+        color: ${colors.secondary};
       }
     }
     li:hover {
-      background-color: ${colors.secondaryLight};
+      background-color: ${colors.white};
     }
   }
 

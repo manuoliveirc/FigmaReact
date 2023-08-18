@@ -1,5 +1,13 @@
 import styled, { createGlobalStyle } from "styled-components"
 
+export const colors = {
+  primary: "#D2B48C",
+  secondary: "#432109",
+  third: "#FAEBD7",
+  black: "#000",
+  white: "#fff"
+}
+
 export const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -7,14 +15,10 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Libre Baskerville', 'serif';
+    font-weight: 400;
+  }
+  body{
+    background-color: ${colors.third};
   }
 `
-export const colors = {
-  primary: "#2B75E2",
-  secondary: "#FFC107",
-  secondaryLight: "#f0dea5",
-  third: "#78909C",
-  thirdLight: "#d9d9d9",
-  black: "#000",
-  white: "#fff"
-}
