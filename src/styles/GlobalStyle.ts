@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components"
+import 'react-toastify/dist/ReactTostify.css';
 
 export const colors = {
   primary: "#D2B48C",
